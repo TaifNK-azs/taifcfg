@@ -1,0 +1,1289 @@
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 09:27:14 2019
+----------------------------------------------------------------------------
+2019-08-01 09:27:14   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 09:27:14   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 09:27:14   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 09:27:14   notice : MaxScale is running in process 1
+2019-08-01 09:27:14   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 09:27:14   notice : Log directory: /var/log/maxscale
+2019-08-01 09:27:14   notice : Data directory: /var/lib/maxscale
+2019-08-01 09:27:14   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 09:27:14   notice : Service cache: /var/cache/maxscale
+2019-08-01 09:27:14   notice : Loading /etc/maxscale.cnf.
+2019-08-01 09:27:14   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 09:27:14   notice : [cli] Initialise CLI router module
+2019-08-01 09:27:14   notice : Loaded module cli: V1.0.0 from /usr/lib64/maxscale/libcli.so
+2019-08-01 09:27:14   notice : Loaded module maxscaled: V2.0.0 from /usr/lib64/maxscale/libmaxscaled.so
+2019-08-01 09:27:14   notice : Loaded module MaxAdminAuth: V2.1.0 from /usr/lib64/maxscale/libmaxadminauth.so
+2019-08-01 09:27:14   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 09:27:14   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 09:27:14   notice : Starting a total of 1 services...
+2019-08-01 09:27:14   notice : Listening for connections at [/tmp/maxadmin.sock]:0 with protocol MaxScale Admin
+2019-08-01 09:27:14   notice : Service 'MaxAdmin-Service' started (1/1)
+2019-08-01 09:27:14   notice : Started MaxScale log flusher.
+2019-08-01 09:27:14   notice : Started REST API on [127.0.0.1]:8989
+2019-08-01 09:27:14   notice : MaxScale started with 1 worker threads, each with a stack size of 8388608 bytes.
+2019-08-01 09:27:49   notice : Waiting for housekeeper to shut down.
+2019-08-01 09:27:50   notice : Finished MaxScale log flusher.
+2019-08-01 09:27:50   notice : Housekeeper shutting down.
+2019-08-01 09:27:50   notice : Housekeeper has shut down.
+2019-08-01 09:27:50   notice : All workers have shut down.
+2019-08-01 09:27:50   notice : MaxScale received signal SIGTERM. Exiting.
+2019-08-01 09:27:50   notice : MaxScale is shutting down.
+2019-08-01 09:27:50   notice : MaxScale shutdown completed.
+2019-08-01 09:27:50   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 09:29:18 2019
+----------------------------------------------------------------------------
+2019-08-01 09:29:18   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 09:29:18   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 09:29:18   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 09:29:18   notice : MaxScale is running in process 1
+2019-08-01 09:29:18   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 09:29:18   notice : Log directory: /var/log/maxscale
+2019-08-01 09:29:18   notice : Data directory: /var/lib/maxscale
+2019-08-01 09:29:18   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 09:29:18   notice : Service cache: /var/cache/maxscale
+2019-08-01 09:29:18   notice : Loading /etc/maxscale.cnf.
+2019-08-01 09:29:18   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 09:29:18   notice : [cli] Initialise CLI router module
+2019-08-01 09:29:18   notice : Loaded module cli: V1.0.0 from /usr/lib64/maxscale/libcli.so
+2019-08-01 09:29:18   notice : Loaded module maxscaled: V2.0.0 from /usr/lib64/maxscale/libmaxscaled.so
+2019-08-01 09:29:18   notice : Loaded module MaxAdminAuth: V2.1.0 from /usr/lib64/maxscale/libmaxadminauth.so
+2019-08-01 09:29:18   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 09:29:18   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 09:29:18   notice : Starting a total of 1 services...
+2019-08-01 09:29:18   notice : Listening for connections at [/tmp/maxadmin.sock]:0 with protocol MaxScale Admin
+2019-08-01 09:29:18   notice : Service 'MaxAdmin-Service' started (1/1)
+2019-08-01 09:29:18   notice : Started MaxScale log flusher.
+2019-08-01 09:29:18   notice : Started REST API on [127.0.0.1]:8989
+2019-08-01 09:29:18   notice : MaxScale started with 1 worker threads, each with a stack size of 8388608 bytes.
+2019-08-01 09:32:14   notice : Waiting for housekeeper to shut down.
+2019-08-01 09:32:14   notice : Housekeeper shutting down.
+2019-08-01 09:32:14   notice : Housekeeper has shut down.
+2019-08-01 09:32:14   notice : All workers have shut down.
+2019-08-01 09:32:15   notice : Finished MaxScale log flusher.
+2019-08-01 09:32:15   notice : MaxScale received signal SIGTERM. Exiting.
+2019-08-01 09:32:15   notice : MaxScale is shutting down.
+2019-08-01 09:32:15   notice : MaxScale shutdown completed.
+2019-08-01 09:32:15   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 09:33:32 2019
+----------------------------------------------------------------------------
+2019-08-01 09:33:32   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 09:33:32   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 09:33:32   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 09:33:32   notice : MaxScale is running in process 1
+2019-08-01 09:33:32   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 09:33:32   notice : Log directory: /var/log/maxscale
+2019-08-01 09:33:32   notice : Data directory: /var/lib/maxscale
+2019-08-01 09:33:32   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 09:33:32   notice : Service cache: /var/cache/maxscale
+2019-08-01 09:33:32   notice : Loading /etc/maxscale.cnf.
+2019-08-01 09:33:32   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 09:33:32   notice : [cli] Initialise CLI router module
+2019-08-01 09:33:32   notice : Loaded module cli: V1.0.0 from /usr/lib64/maxscale/libcli.so
+2019-08-01 09:33:32   notice : Loaded module maxscaled: V2.0.0 from /usr/lib64/maxscale/libmaxscaled.so
+2019-08-01 09:33:32   notice : Loaded module MaxAdminAuth: V2.1.0 from /usr/lib64/maxscale/libmaxadminauth.so
+2019-08-01 09:33:32   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 09:33:32   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 09:33:32   notice : Starting a total of 1 services...
+2019-08-01 09:33:32   notice : Listening for connections at [/tmp/maxadmin.sock]:0 with protocol MaxScale Admin
+2019-08-01 09:33:32   notice : Service 'MaxAdmin-Service' started (1/1)
+2019-08-01 09:33:32   notice : Started MaxScale log flusher.
+2019-08-01 09:33:32   notice : Started REST API on [127.0.0.1]:8989
+2019-08-01 09:33:32   notice : MaxScale started with 1 worker threads, each with a stack size of 8388608 bytes.
+2019-08-01 10:37:19   notice : Waiting for housekeeper to shut down.
+2019-08-01 10:37:19   notice : Finished MaxScale log flusher.
+2019-08-01 10:37:19   notice : Housekeeper shutting down.
+2019-08-01 10:37:19   notice : Housekeeper has shut down.
+2019-08-01 10:37:19   notice : All workers have shut down.
+2019-08-01 10:37:19   notice : MaxScale received signal SIGTERM. Exiting.
+2019-08-01 10:37:19   notice : MaxScale is shutting down.
+2019-08-01 10:37:19   notice : MaxScale shutdown completed.
+2019-08-01 10:37:19   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 10:38:36 2019
+----------------------------------------------------------------------------
+2019-08-01 10:38:36   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 10:38:36   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 10:38:36   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 10:38:36   notice : MaxScale is running in process 1
+2019-08-01 10:38:36   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 10:38:36   notice : Log directory: /var/log/maxscale
+2019-08-01 10:38:36   notice : Data directory: /var/lib/maxscale
+2019-08-01 10:38:36   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 10:38:36   notice : Service cache: /var/cache/maxscale
+2019-08-01 10:38:36   notice : Loading /etc/maxscale.cnf.
+2019-08-01 10:38:36   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 10:38:36   notice : [cli] Initialise CLI router module
+2019-08-01 10:38:36   notice : Loaded module cli: V1.0.0 from /usr/lib64/maxscale/libcli.so
+2019-08-01 10:38:36   notice : Loaded module maxscaled: V2.0.0 from /usr/lib64/maxscale/libmaxscaled.so
+2019-08-01 10:38:36   notice : Loaded module MaxAdminAuth: V2.1.0 from /usr/lib64/maxscale/libmaxadminauth.so
+2019-08-01 10:38:36   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 10:38:36   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 10:38:36   notice : Starting a total of 1 services...
+2019-08-01 10:38:36   notice : Listening for connections at [/tmp/maxadmin.sock]:0 with protocol MaxScale Admin
+2019-08-01 10:38:36   notice : Service 'MaxAdmin-Service' started (1/1)
+2019-08-01 10:38:36   notice : Started MaxScale log flusher.
+2019-08-01 10:38:36   notice : Started REST API on [127.0.0.1]:8989
+2019-08-01 10:38:36   notice : MaxScale started with 1 worker threads, each with a stack size of 8388608 bytes.
+2019-08-01 10:46:33   notice : Waiting for housekeeper to shut down.
+2019-08-01 10:46:33   notice : Housekeeper shutting down.
+2019-08-01 10:46:33   notice : Housekeeper has shut down.
+2019-08-01 10:46:33   notice : All workers have shut down.
+2019-08-01 10:46:33   notice : Finished MaxScale log flusher.
+2019-08-01 10:46:33   notice : MaxScale received signal SIGTERM. Exiting.
+2019-08-01 10:46:33   notice : MaxScale is shutting down.
+2019-08-01 10:46:33   notice : MaxScale shutdown completed.
+2019-08-01 10:46:33   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 10:46:44 2019
+----------------------------------------------------------------------------
+2019-08-01 10:46:44   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 10:46:44   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 10:46:44   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 10:46:44   notice : MaxScale is running in process 1
+2019-08-01 10:46:44   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 10:46:44   notice : Log directory: /var/log/maxscale
+2019-08-01 10:46:44   notice : Data directory: /var/lib/maxscale
+2019-08-01 10:46:44   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 10:46:44   notice : Service cache: /var/cache/maxscale
+2019-08-01 10:46:44   notice : Loading /etc/maxscale.cnf.
+2019-08-01 10:46:44   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 10:46:44   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 10:46:44   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 10:46:44   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 10:46:44   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 10:46:44   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 10:46:44   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 10:46:44   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 10:46:44   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 10:46:44   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 10:46:44   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 10:46:47   error  : [MariaDB-Monitor] Failed to connect to server 'serv10_4_0_8' ([192.168.1.92]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.92' (110)
+2019-08-01 10:46:47   error  : [MariaDB-Monitor] Failed to connect to server 'serv10_4_0_9' ([192.168.1.92]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.92' (115)
+2019-08-01 10:46:50   error  : [MariaDB-Monitor] Failed to connect to server 'serv10_4_0_10' ([192.168.1.92]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.92' (110)
+2019-08-01 10:46:50   error  : [MariaDB-Monitor] Failed to connect to server 'serv10_4_0_11' ([192.168.1.92]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.92' (115)
+2019-08-01 10:46:50   notice : Starting a total of 0 services...
+2019-08-01 10:46:50   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 10:46:50   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 10:48:40 2019
+----------------------------------------------------------------------------
+2019-08-01 10:48:40   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 10:48:40   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 10:48:40   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 10:48:40   notice : MaxScale is running in process 1
+2019-08-01 10:48:40   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 10:48:40   notice : Log directory: /var/log/maxscale
+2019-08-01 10:48:40   notice : Data directory: /var/lib/maxscale
+2019-08-01 10:48:40   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 10:48:40   notice : Service cache: /var/cache/maxscale
+2019-08-01 10:48:40   notice : Loading /etc/maxscale.cnf.
+2019-08-01 10:48:40   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 10:48:40   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 10:48:40   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 10:48:40   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 10:48:40   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 10:48:40   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 10:48:40   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 10:48:40   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 10:48:40   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 10:48:40   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 10:48:40   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 10:48:43   error  : [MariaDB-Monitor] Failed to connect to server 'serv10_4_0_8' ([192.168.1.92]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.92' (110)
+2019-08-01 10:48:43   error  : [MariaDB-Monitor] Failed to connect to server 'serv10_4_0_9' ([192.168.1.92]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.92' (115)
+2019-08-01 10:48:46   error  : [MariaDB-Monitor] Failed to connect to server 'serv10_4_0_10' ([192.168.1.92]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.92' (110)
+2019-08-01 10:48:46   error  : [MariaDB-Monitor] Failed to connect to server 'serv10_4_0_11' ([192.168.1.92]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.92' (115)
+2019-08-01 10:48:46   notice : Starting a total of 0 services...
+2019-08-01 10:48:46   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 10:48:46   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 10:57:55 2019
+----------------------------------------------------------------------------
+2019-08-01 10:57:55   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 10:57:55   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 10:57:55   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 10:57:55   notice : MaxScale is running in process 1
+2019-08-01 10:57:55   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 10:57:55   notice : Log directory: /var/log/maxscale
+2019-08-01 10:57:55   notice : Data directory: /var/lib/maxscale
+2019-08-01 10:57:55   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 10:57:55   notice : Service cache: /var/cache/maxscale
+2019-08-01 10:57:55   notice : Loading /etc/maxscale.cnf.
+2019-08-01 10:57:55   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 10:57:55   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 10:57:55   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 10:57:55   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 10:57:55   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 10:57:55   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 10:57:55   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 10:57:55   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 10:57:55   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 10:57:55   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 10:57:55   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 10:57:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 10:57:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 10:57:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 10:57:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 10:57:55   notice : Starting a total of 0 services...
+2019-08-01 10:57:55   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 10:57:55   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 11:00:46 2019
+----------------------------------------------------------------------------
+2019-08-01 11:00:46   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 11:00:46   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 11:00:46   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 11:00:46   notice : MaxScale is running in process 1
+2019-08-01 11:00:46   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 11:00:46   notice : Log directory: /var/log/maxscale
+2019-08-01 11:00:46   notice : Data directory: /var/lib/maxscale
+2019-08-01 11:00:46   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 11:00:46   notice : Service cache: /var/cache/maxscale
+2019-08-01 11:00:46   notice : Loading /etc/maxscale.cnf.
+2019-08-01 11:00:46   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 11:00:46   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 11:00:46   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 11:00:46   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 11:00:46   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 11:00:46   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 11:00:46   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 11:00:46   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 11:00:46   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 11:00:46   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 11:00:46   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 11:00:46   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 11:00:46   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 11:00:46   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 11:00:46   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 11:00:46   notice : Starting a total of 0 services...
+2019-08-01 11:00:46   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 11:00:46   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 11:02:45 2019
+----------------------------------------------------------------------------
+2019-08-01 11:02:45   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 11:02:45   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 11:02:45   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 11:02:45   notice : MaxScale is running in process 1
+2019-08-01 11:02:45   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 11:02:45   notice : Log directory: /var/log/maxscale
+2019-08-01 11:02:45   notice : Data directory: /var/lib/maxscale
+2019-08-01 11:02:45   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 11:02:45   notice : Service cache: /var/cache/maxscale
+2019-08-01 11:02:45   notice : Loading /etc/maxscale.cnf.
+2019-08-01 11:02:45   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 11:02:45   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 11:02:45   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 11:02:45   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 11:02:45   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 11:02:45   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 11:02:45   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 11:02:45   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 11:02:45   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 11:02:45   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 11:02:45   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 11:02:45   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 11:02:45   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 11:02:45   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 11:02:45   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 11:02:45   notice : Starting a total of 0 services...
+2019-08-01 11:02:45   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 11:02:45   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 11:09:10 2019
+----------------------------------------------------------------------------
+2019-08-01 11:09:10   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 11:09:10   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 11:09:10   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 11:09:10   notice : MaxScale is running in process 1
+2019-08-01 11:09:10   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 11:09:10   notice : Log directory: /var/log/maxscale
+2019-08-01 11:09:10   notice : Data directory: /var/lib/maxscale
+2019-08-01 11:09:10   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 11:09:10   notice : Service cache: /var/cache/maxscale
+2019-08-01 11:09:10   notice : Loading /etc/maxscale.cnf.
+2019-08-01 11:09:10   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 11:09:10   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 11:09:10   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 11:09:10   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 11:09:10   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 11:09:10   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 11:09:10   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 11:09:10   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 11:09:10   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 11:09:10   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 11:09:10   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 11:09:10   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 115
+2019-08-01 11:09:10   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:09:10   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:09:10   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:09:10   notice : Starting a total of 0 services...
+2019-08-01 11:09:10   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 11:09:10   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 11:10:32 2019
+----------------------------------------------------------------------------
+2019-08-01 11:10:32   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 11:10:32   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 11:10:32   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 11:10:32   notice : MaxScale is running in process 1
+2019-08-01 11:10:32   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 11:10:32   notice : Log directory: /var/log/maxscale
+2019-08-01 11:10:32   notice : Data directory: /var/lib/maxscale
+2019-08-01 11:10:32   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 11:10:32   notice : Service cache: /var/cache/maxscale
+2019-08-01 11:10:32   notice : Loading /etc/maxscale.cnf.
+2019-08-01 11:10:32   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 11:10:32   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 11:10:32   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 11:10:32   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 11:10:32   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 11:10:32   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 11:10:32   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 11:10:32   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 11:10:32   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 11:10:32   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 11:10:32   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 11:10:32   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:10:32   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:10:32   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:10:32   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:10:32   notice : Starting a total of 0 services...
+2019-08-01 11:10:32   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 11:10:32   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 11:12:23 2019
+----------------------------------------------------------------------------
+2019-08-01 11:12:23   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 11:12:23   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 11:12:23   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 11:12:23   notice : MaxScale is running in process 1
+2019-08-01 11:12:23   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 11:12:23   notice : Log directory: /var/log/maxscale
+2019-08-01 11:12:23   notice : Data directory: /var/lib/maxscale
+2019-08-01 11:12:23   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 11:12:23   notice : Service cache: /var/cache/maxscale
+2019-08-01 11:12:23   notice : Loading /etc/maxscale.cnf.
+2019-08-01 11:12:23   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 11:12:23   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 11:12:23   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 11:12:23   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 11:12:23   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 11:12:23   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 11:12:23   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 11:12:23   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 11:12:23   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 11:12:23   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 11:12:23   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 11:12:23   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3306) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 11:12:23   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.20.0.1' (using password: YES)
+2019-08-01 11:12:23   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.20.0.1' (using password: YES)
+2019-08-01 11:12:23   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.20.0.1' (using password: YES)
+2019-08-01 11:12:23   notice : Starting a total of 0 services...
+2019-08-01 11:12:23   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 11:12:23   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 11:14:03 2019
+----------------------------------------------------------------------------
+2019-08-01 11:14:03   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 11:14:03   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 11:14:03   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 11:14:03   notice : MaxScale is running in process 1
+2019-08-01 11:14:03   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 11:14:03   notice : Log directory: /var/log/maxscale
+2019-08-01 11:14:03   notice : Data directory: /var/lib/maxscale
+2019-08-01 11:14:03   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 11:14:03   notice : Service cache: /var/cache/maxscale
+2019-08-01 11:14:03   notice : Loading /etc/maxscale.cnf.
+2019-08-01 11:14:03   error  : Empty value given to parameter 'password'
+2019-08-01 11:14:03   error  : Failed to parse configuration file /etc/maxscale.cnf. Error on line 57.
+2019-08-01 11:14:03   error  : Failed to open, read or process the MaxScale configuration file /etc/maxscale.cnf. Exiting.
+2019-08-01 11:14:03   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 11:15:17 2019
+----------------------------------------------------------------------------
+2019-08-01 11:15:17   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 11:15:17   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 11:15:17   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 11:15:17   notice : MaxScale is running in process 1
+2019-08-01 11:15:17   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 11:15:17   notice : Log directory: /var/log/maxscale
+2019-08-01 11:15:17   notice : Data directory: /var/lib/maxscale
+2019-08-01 11:15:17   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 11:15:17   notice : Service cache: /var/cache/maxscale
+2019-08-01 11:15:17   notice : Loading /etc/maxscale.cnf.
+2019-08-01 11:15:17   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 11:15:17   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 11:15:17   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 11:15:17   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 11:15:17   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 11:15:17   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 11:15:17   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 11:15:17   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 11:15:17   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 11:15:17   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 11:15:17   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 11:15:17   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:15:17   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 115
+2019-08-01 11:15:17   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:15:17   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 11:15:17   notice : Starting a total of 0 services...
+2019-08-01 11:15:17   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 11:15:17   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:02:34 2019
+----------------------------------------------------------------------------
+2019-08-01 12:02:34   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:02:34   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:02:34   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:02:34   notice : MaxScale is running in process 1
+2019-08-01 12:02:34   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:02:34   notice : Log directory: /var/log/maxscale
+2019-08-01 12:02:34   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:02:34   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:02:34   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:02:34   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:02:34   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:02:34   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:02:34   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:02:34   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:02:34   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:02:34   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:02:34   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:02:34   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:02:34   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:02:34   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:02:34   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:02:34   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:02:34   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:02:34   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:02:34   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:02:34   notice : Starting a total of 0 services...
+2019-08-01 12:02:34   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:02:34   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:04:07 2019
+----------------------------------------------------------------------------
+2019-08-01 12:04:07   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:04:07   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:04:07   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:04:07   notice : MaxScale is running in process 1
+2019-08-01 12:04:07   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:04:07   notice : Log directory: /var/log/maxscale
+2019-08-01 12:04:07   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:04:07   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:04:07   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:04:07   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:04:07   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:04:07   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:04:07   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:04:07   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:04:07   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:04:07   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:04:07   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:04:07   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:04:07   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:04:07   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:04:07   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:04:08   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:04:08   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:04:08   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:04:08   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:04:08   notice : Starting a total of 0 services...
+2019-08-01 12:04:08   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:04:08   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:08:55 2019
+----------------------------------------------------------------------------
+2019-08-01 12:08:55   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:08:55   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:08:55   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:08:55   notice : MaxScale is running in process 1
+2019-08-01 12:08:55   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:08:55   notice : Log directory: /var/log/maxscale
+2019-08-01 12:08:55   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:08:55   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:08:55   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:08:55   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:08:55   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:08:55   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:08:55   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:08:55   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:08:55   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:08:55   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:08:55   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:08:55   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:08:55   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:08:55   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:08:55   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:08:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:08:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:08:56   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:08:56   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.23.0.1' (using password: YES)
+2019-08-01 12:08:56   notice : Starting a total of 0 services...
+2019-08-01 12:08:56   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:08:56   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:12:39 2019
+----------------------------------------------------------------------------
+2019-08-01 12:12:39   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:12:39   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:12:39   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:12:39   notice : MaxScale is running in process 1
+2019-08-01 12:12:39   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:12:39   notice : Log directory: /var/log/maxscale
+2019-08-01 12:12:39   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:12:39   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:12:39   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:12:39   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:12:39   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:12:39   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:12:39   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:12:39   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:12:39   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:12:39   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:12:39   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:12:39   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:12:39   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:12:39   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:12:39   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:12:39   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.24.0.1' (using password: YES)
+2019-08-01 12:12:39   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.24.0.1' (using password: YES)
+2019-08-01 12:12:39   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.24.0.1' (using password: YES)
+2019-08-01 12:12:39   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.24.0.1' (using password: YES)
+2019-08-01 12:12:39   error  : [mariadbmon] Failed to start monitor. See earlier errors for more information.
+2019-08-01 12:12:39   error  : Failed to start monitor 'MariaDB-Monitor'.
+2019-08-01 12:12:39   notice : Starting a total of 0 services...
+2019-08-01 12:12:39   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:12:39   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:16:35 2019
+----------------------------------------------------------------------------
+2019-08-01 12:16:35   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:16:35   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:16:35   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:16:35   notice : MaxScale is running in process 1
+2019-08-01 12:16:35   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:16:35   notice : Log directory: /var/log/maxscale
+2019-08-01 12:16:35   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:16:35   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:16:35   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:16:35   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:16:35   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:16:35   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:16:35   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:16:35   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:16:35   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:16:35   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:16:35   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:16:35   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:16:35   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:16:35   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:16:35   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:16:36   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:16:36   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.25.0.1' (using password: YES)
+2019-08-01 12:16:36   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:16:36   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.25.0.1' (using password: YES)
+2019-08-01 12:16:36   notice : Starting a total of 0 services...
+2019-08-01 12:16:36   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:16:36   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:18:17 2019
+----------------------------------------------------------------------------
+2019-08-01 12:18:17   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:18:17   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:18:17   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:18:17   notice : MaxScale is running in process 1
+2019-08-01 12:18:17   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:18:17   notice : Log directory: /var/log/maxscale
+2019-08-01 12:18:17   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:18:17   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:18:17   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:18:17   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:18:17   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:18:17   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:18:17   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:18:17   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:18:17   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:18:17   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:18:17   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:18:17   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:18:17   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:18:17   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:18:17   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:18:17   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:18:17   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:18:18   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:18:18   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:18:18   notice : Starting a total of 0 services...
+2019-08-01 12:18:18   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:18:18   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:21:48 2019
+----------------------------------------------------------------------------
+2019-08-01 12:21:48   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:21:48   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:21:48   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:21:48   notice : MaxScale is running in process 1
+2019-08-01 12:21:48   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:21:48   notice : Log directory: /var/log/maxscale
+2019-08-01 12:21:48   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:21:48   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:21:48   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:21:48   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:21:48   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:21:48   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:21:48   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:21:48   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:21:48   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:21:48   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:21:48   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:21:48   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:21:48   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:21:48   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:21:48   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:21:48   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:21:48   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:21:48   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:21:48   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:21:48   notice : Starting a total of 0 services...
+2019-08-01 12:21:48   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:21:48   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:23:51 2019
+----------------------------------------------------------------------------
+2019-08-01 12:23:51   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:23:51   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:23:51   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:23:51   notice : MaxScale is running in process 1
+2019-08-01 12:23:51   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:23:51   notice : Log directory: /var/log/maxscale
+2019-08-01 12:23:51   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:23:51   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:23:51   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:23:51   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:23:51   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:23:51   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:23:51   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:23:51   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:23:51   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:23:51   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:23:51   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:23:51   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:23:51   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:23:51   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:23:51   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:23:51   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.27.0.1' (using password: YES)
+2019-08-01 12:23:51   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:23:51   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:23:51   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:23:51   notice : Starting a total of 0 services...
+2019-08-01 12:23:51   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:23:51   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:24:34 2019
+----------------------------------------------------------------------------
+2019-08-01 12:24:34   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:24:34   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:24:34   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:24:34   notice : MaxScale is running in process 1
+2019-08-01 12:24:34   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:24:34   notice : Log directory: /var/log/maxscale
+2019-08-01 12:24:34   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:24:34   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:24:34   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:24:34   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:24:34   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:24:34   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:24:34   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:24:34   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:24:34   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:24:34   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:24:34   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:24:34   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:24:34   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:24:34   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:24:34   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:24:34   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 115
+2019-08-01 12:24:34   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:24:34   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:24:34   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:24:34   notice : Starting a total of 0 services...
+2019-08-01 12:24:34   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:24:34   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:28:30 2019
+----------------------------------------------------------------------------
+2019-08-01 12:28:30   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:28:30   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:28:30   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:28:30   notice : MaxScale is running in process 1
+2019-08-01 12:28:30   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:28:30   notice : Log directory: /var/log/maxscale
+2019-08-01 12:28:30   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:28:30   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:28:30   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:28:30   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:28:30   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:28:30   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:28:30   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:28:30   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:28:30   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:28:30   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:28:30   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:28:30   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:28:30   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:28:30   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:28:30   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:28:30   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 115
+2019-08-01 12:28:33   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:28:33   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 12:28:33   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:28:33   notice : Starting a total of 0 services...
+2019-08-01 12:28:33   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:28:33   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:36:00 2019
+----------------------------------------------------------------------------
+2019-08-01 12:36:00   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:36:00   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:36:00   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:36:00   notice : MaxScale is running in process 1
+2019-08-01 12:36:00   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:36:00   notice : Log directory: /var/log/maxscale
+2019-08-01 12:36:00   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:36:00   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:36:00   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:36:00   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:36:00   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:36:00   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:36:00   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:36:00   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:36:00   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:36:00   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:36:00   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:36:00   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:36:00   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:36:00   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:36:00   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:36:00   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:36:00   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:36:00   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:36:00   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:36:00   notice : Starting a total of 0 services...
+2019-08-01 12:36:00   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:36:00   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:47:56 2019
+----------------------------------------------------------------------------
+2019-08-01 12:47:56   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:47:56   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:47:56   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:47:56   notice : MaxScale is running in process 1
+2019-08-01 12:47:56   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:47:56   notice : Log directory: /var/log/maxscale
+2019-08-01 12:47:56   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:47:56   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:47:56   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:47:56   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:47:56   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:47:56   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:47:56   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:47:56   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:47:56   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:47:56   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:47:56   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:47:56   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:47:56   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:47:56   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:47:56   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:47:56   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:47:56   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:47:56   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:47:57   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:47:57   notice : Starting a total of 0 services...
+2019-08-01 12:47:57   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:47:57   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:51:31 2019
+----------------------------------------------------------------------------
+2019-08-01 12:51:31   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:51:31   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:51:31   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:51:31   notice : MaxScale is running in process 1
+2019-08-01 12:51:31   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:51:31   notice : Log directory: /var/log/maxscale
+2019-08-01 12:51:31   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:51:31   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:51:31   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:51:31   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:51:31   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:51:31   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:51:31   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:51:31   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:51:31   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:51:31   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:51:31   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:51:31   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:51:31   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:51:31   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:51:31   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:51:31   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 115
+2019-08-01 12:51:31   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 115
+2019-08-01 12:51:31   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 115
+2019-08-01 12:51:31   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:51:31   notice : Starting a total of 0 services...
+2019-08-01 12:51:31   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:51:31   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:52:15 2019
+----------------------------------------------------------------------------
+2019-08-01 12:52:15   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:52:15   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:52:15   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:52:15   notice : MaxScale is running in process 1
+2019-08-01 12:52:15   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:52:15   notice : Log directory: /var/log/maxscale
+2019-08-01 12:52:15   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:52:15   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:52:15   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:52:15   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:52:15   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:52:15   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:52:15   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:52:15   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:52:15   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:52:15   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:52:15   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:52:15   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:52:15   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:52:15   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:52:15   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:52:16   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.30.0.1' (using password: YES)
+2019-08-01 12:52:16   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:52:16   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 12:52:16   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.30.0.1' (using password: YES)
+2019-08-01 12:52:16   notice : Starting a total of 0 services...
+2019-08-01 12:52:16   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:52:16   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 12:53:19 2019
+----------------------------------------------------------------------------
+2019-08-01 12:53:19   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 12:53:19   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 12:53:19   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 12:53:19   notice : MaxScale is running in process 1
+2019-08-01 12:53:19   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 12:53:19   notice : Log directory: /var/log/maxscale
+2019-08-01 12:53:19   notice : Data directory: /var/lib/maxscale
+2019-08-01 12:53:19   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 12:53:19   notice : Service cache: /var/cache/maxscale
+2019-08-01 12:53:19   notice : Loading /etc/maxscale.cnf.
+2019-08-01 12:53:19   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 12:53:19   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 12:53:19   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 12:53:19   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 12:53:19   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 12:53:19   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 12:53:19   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 12:53:19   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 12:53:19   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 12:53:19   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 12:53:19   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 12:53:19   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.30.0.1' (using password: YES)
+2019-08-01 12:53:19   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.30.0.1' (using password: YES)
+2019-08-01 12:53:19   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.30.0.1' (using password: YES)
+2019-08-01 12:53:20   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.30.0.1' (using password: YES)
+2019-08-01 12:53:20   error  : [mariadbmon] Failed to start monitor. See earlier errors for more information.
+2019-08-01 12:53:20   error  : Failed to start monitor 'MariaDB-Monitor'.
+2019-08-01 12:53:20   notice : Starting a total of 0 services...
+2019-08-01 12:53:20   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 12:53:20   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 13:06:39 2019
+----------------------------------------------------------------------------
+2019-08-01 13:06:39   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 13:06:39   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 13:06:39   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 13:06:39   notice : MaxScale is running in process 1
+2019-08-01 13:06:39   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 13:06:39   notice : Log directory: /var/log/maxscale
+2019-08-01 13:06:39   notice : Data directory: /var/lib/maxscale
+2019-08-01 13:06:39   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 13:06:39   notice : Service cache: /var/cache/maxscale
+2019-08-01 13:06:39   notice : Loading /etc/maxscale.cnf.
+2019-08-01 13:06:39   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 13:06:39   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 13:06:39   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 13:06:39   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 13:06:39   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 13:06:39   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 13:06:39   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 13:06:39   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 13:06:39   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 13:06:39   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 13:06:39   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 13:06:39   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([127.0.0.1]:3307) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:06:39   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([127.0.0.1]:3308) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:06:39   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([127.0.0.1]:3309) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:06:39   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([127.0.0.1]:3310) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:06:39   notice : Starting a total of 0 services...
+2019-08-01 13:06:39   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 13:06:39   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 13:07:23 2019
+----------------------------------------------------------------------------
+2019-08-01 13:07:23   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 13:07:23   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 13:07:23   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 13:07:23   notice : MaxScale is running in process 1
+2019-08-01 13:07:23   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 13:07:23   notice : Log directory: /var/log/maxscale
+2019-08-01 13:07:23   notice : Data directory: /var/lib/maxscale
+2019-08-01 13:07:23   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 13:07:23   notice : Service cache: /var/cache/maxscale
+2019-08-01 13:07:23   notice : Loading /etc/maxscale.cnf.
+2019-08-01 13:07:23   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 13:07:23   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 13:07:23   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 13:07:23   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 13:07:23   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 13:07:23   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 13:07:23   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 13:07:23   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 13:07:23   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 13:07:23   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 13:07:23   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 13:07:23   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([127.0.0.1]:3307) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:07:23   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([127.0.0.1]:3308) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:07:23   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([127.0.0.1]:3309) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:07:23   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([127.0.0.1]:3310) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:07:23   notice : Starting a total of 0 services...
+2019-08-01 13:07:23   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 13:07:23   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 13:19:03 2019
+----------------------------------------------------------------------------
+2019-08-01 13:19:03   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 13:19:03   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 13:19:03   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 13:19:03   notice : MaxScale is running in process 1
+2019-08-01 13:19:03   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 13:19:03   notice : Log directory: /var/log/maxscale
+2019-08-01 13:19:03   notice : Data directory: /var/lib/maxscale
+2019-08-01 13:19:03   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 13:19:03   notice : Service cache: /var/cache/maxscale
+2019-08-01 13:19:03   notice : Loading /etc/maxscale.cnf.
+2019-08-01 13:19:03   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 13:19:03   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 13:19:03   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 13:19:03   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 13:19:03   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 13:19:03   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 13:19:03   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 13:19:03   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 13:19:03   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 13:19:03   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 13:19:03   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 13:19:03   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([127.0.0.1]:3307) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:19:03   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([127.0.0.1]:3308) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:19:03   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([127.0.0.1]:3309) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:19:03   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([127.0.0.1]:3310) when checking monitor user credentials and permissions: Can't connect to MySQL server on '127.0.0.1' (115)
+2019-08-01 13:19:03   notice : Starting a total of 0 services...
+2019-08-01 13:19:03   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 13:19:03   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 13:24:47 2019
+----------------------------------------------------------------------------
+2019-08-01 13:24:47   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 13:24:47   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 13:24:47   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 13:24:47   notice : MaxScale is running in process 1
+2019-08-01 13:24:47   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 13:24:47   notice : Log directory: /var/log/maxscale
+2019-08-01 13:24:47   notice : Data directory: /var/lib/maxscale
+2019-08-01 13:24:47   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 13:24:47   notice : Service cache: /var/cache/maxscale
+2019-08-01 13:24:47   notice : Loading /etc/maxscale.cnf.
+2019-08-01 13:24:47   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 13:24:47   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 13:24:47   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 13:24:47   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 13:24:47   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 13:24:47   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 13:24:47   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 13:24:47   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 13:24:47   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 13:24:47   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 13:24:47   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 13:24:47   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.31.0.1' (using password: YES)
+2019-08-01 13:24:47   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 13:24:47   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.31.0.1' (using password: YES)
+2019-08-01 13:24:47   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'172.31.0.1' (using password: YES)
+2019-08-01 13:24:47   notice : Starting a total of 0 services...
+2019-08-01 13:24:47   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 13:24:47   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 13:29:30 2019
+----------------------------------------------------------------------------
+2019-08-01 13:29:30   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 13:29:30   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 13:29:30   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 13:29:30   notice : MaxScale is running in process 1
+2019-08-01 13:29:30   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 13:29:30   notice : Log directory: /var/log/maxscale
+2019-08-01 13:29:30   notice : Data directory: /var/lib/maxscale
+2019-08-01 13:29:30   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 13:29:30   notice : Service cache: /var/cache/maxscale
+2019-08-01 13:29:30   notice : Loading /etc/maxscale.cnf.
+2019-08-01 13:29:30   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 13:29:30   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 13:29:30   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 13:29:30   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 13:29:30   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 13:29:30   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 13:29:30   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 13:29:30   error  : Monitor 'MariaDB-Monitor' defines a username but does not define a password.
+2019-08-01 13:29:30   error  : 1 errors were encountered while processing the configuration file '/etc/maxscale.cnf'.
+2019-08-01 13:29:30   error  : Failed to open, read or process the MaxScale configuration file /etc/maxscale.cnf. Exiting.
+2019-08-01 13:29:30   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 13:37:37 2019
+----------------------------------------------------------------------------
+2019-08-01 13:37:37   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 13:37:37   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 13:37:37   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 13:37:37   notice : MaxScale is running in process 1
+2019-08-01 13:37:37   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 13:37:37   notice : Log directory: /var/log/maxscale
+2019-08-01 13:37:37   notice : Data directory: /var/lib/maxscale
+2019-08-01 13:37:37   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 13:37:37   notice : Service cache: /var/cache/maxscale
+2019-08-01 13:37:37   notice : Loading /etc/maxscale.cnf.
+2019-08-01 13:37:37   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 13:37:37   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 13:37:37   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 13:37:37   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 13:37:37   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 13:37:37   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 13:37:37   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 13:37:37   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 13:37:37   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 13:37:37   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 13:37:37   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 13:37:37   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'192.168.16.1' (using password: YES)
+2019-08-01 13:37:37   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 13:37:37   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'192.168.16.1' (using password: YES)
+2019-08-01 13:37:37   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'192.168.16.1' (using password: YES)
+2019-08-01 13:37:37   notice : Starting a total of 0 services...
+2019-08-01 13:37:37   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 13:37:37   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 13:46:09 2019
+----------------------------------------------------------------------------
+2019-08-01 13:46:09   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 13:46:09   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 13:46:09   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 13:46:09   notice : MaxScale is running in process 1
+2019-08-01 13:46:09   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 13:46:09   notice : Log directory: /var/log/maxscale
+2019-08-01 13:46:09   notice : Data directory: /var/lib/maxscale
+2019-08-01 13:46:09   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 13:46:09   notice : Service cache: /var/cache/maxscale
+2019-08-01 13:46:09   notice : Loading /etc/maxscale.cnf.
+2019-08-01 13:46:09   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 13:46:09   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 13:46:09   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 13:46:09   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 13:46:09   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 13:46:09   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 13:46:09   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 13:46:09   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 13:46:09   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 13:46:10   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 13:46:10   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 13:46:10   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 13:46:10   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 13:46:10   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 13:46:10   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Can't connect to MySQL server on '192.168.1.97' (115)
+2019-08-01 13:46:10   notice : Starting a total of 0 services...
+2019-08-01 13:46:10   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 13:46:10   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 13:47:55 2019
+----------------------------------------------------------------------------
+2019-08-01 13:47:55   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 13:47:55   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 13:47:55   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 13:47:55   notice : MaxScale is running in process 1
+2019-08-01 13:47:55   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 13:47:55   notice : Log directory: /var/log/maxscale
+2019-08-01 13:47:55   notice : Data directory: /var/lib/maxscale
+2019-08-01 13:47:55   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 13:47:55   notice : Service cache: /var/cache/maxscale
+2019-08-01 13:47:55   notice : Loading /etc/maxscale.cnf.
+2019-08-01 13:47:55   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 13:47:55   notice : [mariadbmon] Initialise the MariaDB Monitor module.
+2019-08-01 13:47:55   notice : Loaded module mariadbmon: V1.5.0 from /usr/lib64/maxscale/libmariadbmon.so
+2019-08-01 13:47:55   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 13:47:55   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 13:47:55   notice : Monitor 'MariaDB-Monitor' is missing the 'journal_max_age' parameter, using default value of 28800 seconds.
+2019-08-01 13:47:55   notice : Monitor 'MariaDB-Monitor' is missing the 'script_timeout' parameter, using default value of 90 seconds.
+2019-08-01 13:47:55   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 13:47:55   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 13:47:55   warning: Removing stale journal file for monitor 'MariaDB-Monitor'.
+2019-08-01 13:47:55   notice : Encrypted password file /var/lib/maxscale/.secrets can't be accessed (No such file or directory). Password encryption is not used.
+2019-08-01 13:47:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db1_1' ([192.168.1.97]:3307) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'192.168.48.1' (using password: YES)
+2019-08-01 13:47:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db2_1' ([192.168.1.97]:3308) when checking monitor user credentials and permissions: Access denied for user 'maxscale'@'192.168.48.1' (using password: YES)
+2019-08-01 13:47:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db3_1' ([192.168.1.97]:3309) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 13:47:55   error  : [MariaDB-Monitor] Failed to connect to server 'mariadb_db4_1' ([192.168.1.97]:3310) when checking monitor user credentials and permissions: Lost connection to MySQL server at 'handshake: reading initial communication packet', system error: 11
+2019-08-01 13:47:55   notice : Starting a total of 0 services...
+2019-08-01 13:47:55   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 13:47:55   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Thu Aug  1 13:53:40 2019
+----------------------------------------------------------------------------
+2019-08-01 13:53:40   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-01 13:53:40   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-01 13:53:40   notice : MariaDB MaxScale 2.2.5 started
+2019-08-01 13:53:40   notice : MaxScale is running in process 1
+2019-08-01 13:53:40   notice : Configuration file: /etc/maxscale.cnf
+2019-08-01 13:53:40   notice : Log directory: /var/log/maxscale
+2019-08-01 13:53:40   notice : Data directory: /var/lib/maxscale
+2019-08-01 13:53:40   notice : Module directory: /usr/lib64/maxscale
+2019-08-01 13:53:40   notice : Service cache: /var/cache/maxscale
+2019-08-01 13:53:40   notice : Loading /etc/maxscale.cnf.
+2019-08-01 13:53:40   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-01 13:53:40   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-01 13:53:40   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-01 13:53:40   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-01 13:53:40   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-01 13:53:40   notice : Starting a total of 0 services...
+2019-08-01 13:53:40   error  : Failed to start all MaxScale services. Exiting.
+2019-08-01 13:53:40   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Fri Aug  2 05:32:11 2019
+----------------------------------------------------------------------------
+2019-08-02 05:32:11   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-02 05:32:11   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-02 05:32:11   notice : MariaDB MaxScale 2.2.5 started
+2019-08-02 05:32:11   notice : MaxScale is running in process 1
+2019-08-02 05:32:11   notice : Configuration file: /etc/maxscale.cnf
+2019-08-02 05:32:11   notice : Log directory: /var/log/maxscale
+2019-08-02 05:32:11   notice : Data directory: /var/lib/maxscale
+2019-08-02 05:32:11   notice : Module directory: /usr/lib64/maxscale
+2019-08-02 05:32:11   notice : Service cache: /var/cache/maxscale
+2019-08-02 05:32:11   notice : Loading /etc/maxscale.cnf.
+2019-08-02 05:32:11   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-02 05:32:11   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-02 05:32:11   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-02 05:32:11   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-02 05:32:11   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-02 05:32:11   notice : Starting a total of 0 services...
+2019-08-02 05:32:11   error  : Failed to start all MaxScale services. Exiting.
+2019-08-02 05:32:11   MariaDB MaxScale is shut down.
+----------------------------------------------------
+
+
+MariaDB MaxScale  /var/log/maxscale/maxscale.log  Fri Aug  2 05:44:46 2019
+----------------------------------------------------------------------------
+2019-08-02 05:44:46   notice : The collection of SQLite memory allocation statistics turned off.
+2019-08-02 05:44:46   notice : Threading mode of SQLite set to Multi-thread.
+2019-08-02 05:44:46   notice : MariaDB MaxScale 2.2.5 started
+2019-08-02 05:44:46   notice : MaxScale is running in process 1
+2019-08-02 05:44:46   notice : Configuration file: /etc/maxscale.cnf
+2019-08-02 05:44:46   notice : Log directory: /var/log/maxscale
+2019-08-02 05:44:46   notice : Data directory: /var/lib/maxscale
+2019-08-02 05:44:46   notice : Module directory: /usr/lib64/maxscale
+2019-08-02 05:44:46   notice : Service cache: /var/cache/maxscale
+2019-08-02 05:44:46   notice : Loading /etc/maxscale.cnf.
+2019-08-02 05:44:46   notice : /etc/maxscale.cnf.d does not exist, not reading.
+2019-08-02 05:44:46   notice : Loaded module MariaDBBackend: V2.0.0 from /usr/lib64/maxscale/libmariadbbackend.so
+2019-08-02 05:44:46   notice : Loaded module MySQLBackendAuth: V1.0.0 from /usr/lib64/maxscale/libmysqlbackendauth.so
+2019-08-02 05:44:46   notice : No query classifier specified, using default 'qc_sqlite'.
+2019-08-02 05:44:46   notice : Loaded module qc_sqlite: V1.0.0 from /usr/lib64/maxscale/libqc_sqlite.so
+2019-08-02 05:44:46   notice : Starting a total of 0 services...
+2019-08-02 05:44:46   error  : Failed to start all MaxScale services. Exiting.
+2019-08-02 05:44:46   MariaDB MaxScale is shut down.
+----------------------------------------------------

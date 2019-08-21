@@ -1,0 +1,58 @@
+# MaxScale documentation:
+# https://mariadb.com/kb/en/mariadb-enterprise/mariadb-maxscale-23/
+
+# Global parameters
+#
+# Complete list of configuration options:
+# https://mariadb.com/kb/en/mariadb-maxscale-23-mariadb-maxscale-configuration-usage-scenarios/
+
+[maxscale]
+threads=auto
+auth_connect_timeout=30
+auth_read_timeout=30
+auth_write_timeout=30
+query_retry_timeout=30
+
+# Server definitions
+#
+# Set the address of the server to the network
+# address of a MariaDB server.
+#
+
+[mariadb_db1_1]
+type=server
+address=192.168.1.97
+port=3307
+protocol=MariaDBBackend
+
+[mariadb_db2_1]
+type=server
+address=192.168.1.97
+port=3308
+protocol=MariaDBBackend
+
+[mariadb_db3_1]
+type=server
+address=192.168.1.97
+port=3309
+protocol=MariaDBBackend
+
+[mariadb_db4_1]
+type=server
+address=192.168.1.97
+port=3310
+protocol=MariaDBBackend
+
+# Monitor for the servers
+#
+# This will keep MaxScale aware of the state of the servers.
+# MariaDB Monitor documentation:
+# https://mariadb.com/kb/en/mariadb-maxscale-23-mariadb-monitor/
+
+#[MariaDB-Monitor]
+#type=monitor
+#module=mariadbmon
+#servers=mariadb_db1_1, mariadb_db2_1, mariadb_db3_1, mariadb_db4_1
+#user=maxscale
+#password=0
+#monitor_interval=2000
